@@ -12,11 +12,11 @@ Additionally, note base Pythia checkpoints aren't instruction-tuned, so the judg
 
 Please reference: 
 
-![Bias score vs. training step](bias_score)
+![Bias score vs. training step](bias_score.png)
 
-![Perplexity vs. training step](perplexity)
+![Perplexity vs. training step](perplexity.png)
 
-![Bias score and perplexity overlay](overlay)
+![Bias score and perplexity overlay](overlay.png)
 
 Position bias emerges around step 512, however, perplexity plateaus around step 20,000-30,000. Bias onset happens early in training, while general capability is still improving. In other words, the two are separable behavior.
 
